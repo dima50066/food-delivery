@@ -44,6 +44,8 @@ img {
   height: 32px;
   cursor: pointer;
   display: block;
+  border: none;
+  /* text */
   font-weight: 500;
   font-size: 13px;
   line-height: 1.5;
@@ -53,19 +55,26 @@ img {
 /* header */
 
 .logo {
+  display: flex;
 }
 
-.menu-own {
+.headerr {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 16px;
 }
-
 .menu {
+  display: flex;
+}
+.menu-ul {
   display: flex;
   flex-direction: row;
   font-weight: 400;
   font-size: 14px;
   gap: 28px;
+  padding-right: 30px;
+  /* text */
   font-weight: 400;
   font-size: 14px;
   color: #2c2c2c;
