@@ -28,14 +28,6 @@ img {
   /* display: block; */
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 16px;
-}
-.section {
-  padding: 120px 0;
-}
-
 .button-order {
   background: #bbf330;
   border-radius: 30px;
@@ -88,6 +80,8 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 16px;
+  padding-bottom: 55px;
 }
 
 .hero-info {
@@ -118,35 +112,46 @@ img {
   /* elipse */
   border: 26px solid #ffe550;
   border-radius: 100%;
-  width: 580px;
-  height: 580px;
+  /* width: 580px;
+  height: 580px; */
 }
 
 /* OFFERINGS */
 .offer {
   background-color: #ffe550;
   display: flex;
+  flex-direction: row;
+  padding-left: 16px;
+  padding-bottom: 124px;
+  padding-top: 113px;
+  padding-right: 51px;
+}
+.offer-img {
+  margin: auto;
 }
 
 .offer-info {
   width: 573px;
   height: 413px;
+  margin: auto;
 }
 
 .offer-title {
+  padding-bottom: 20px;
+  /* text */
   font-weight: 700;
   font-size: 42px;
   line-height: 1.2;
   color: #2c2c2c;
-  padding-bottom: 20px;
 }
 
 .offer-par {
+  padding-bottom: 40px;
+  /* text */
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #2c2c2c;
-  padding-bottom: 40px;
 }
 /* OFFER-LIST */
 .offer-list {
@@ -161,14 +166,16 @@ img {
 }
 
 .offer-list-title {
+  padding-bottom: 16px;
+  /* text */
   font-weight: 700;
   font-size: 18px;
   line-height: 1.4;
   color: #2c2c2c;
-  padding-bottom: 16px;
 }
 
 .offer-list-par {
+  /* text */
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -186,7 +193,9 @@ img {
 
 /* FAVORITES */
 .favor {
-  /* margin: 0 auto; */
+  padding-top: 120px;
+  padding-left: 32px;
+  padding-bottom: 101px;
 }
 
 .favor-title {
@@ -207,21 +216,167 @@ img {
   color: #2c2c2c;
 }
 
+.favor-list {
+}
+
 .favor-ul {
   display: flex;
-  column-gap: 32px;
   flex-wrap: wrap;
+  column-gap: 32px;
   row-gap: 32px;
+  padding-left: 32px;
 }
 
 .favor-li {
-}
-
-.favor-li-img {
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   /* eclipse */
   border: 16px solid #ffe550;
   border-radius: 197px;
   width: 395px;
   height: 397px;
+}
+
+.favor-li-img {
+}
+
+/* Customers */
+
+.customers {
+  background-color: #ffe550;
+}
+
+.customers-info {
+  padding-top: 140px;
+  padding-bottom: 126px;
+  padding-left: 32px;
+  padding-right: 104px;
+}
+
+.customers-title {
+  padding-bottom: 20px;
+  /* text */
+  font-weight: 700;
+  font-size: 42px;
+  color: #2c2c2c;
+}
+
+.customers-par {
+  padding-bottom: 32px;
+  /* text */
+  font-weight: 400;
+  font-size: 16px;
+  color: #2c2c2c;
+}
+
+.comments {
+  background-color: #7eb101;
+  display: flex;
+}
+
+.comments-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 153px;
+}
+
+.comments-li {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-li-par {
+  /* text */
+  font-weight: 700;
+  font-size: 18px;
+  color: #2c2c2c;
+}
+
+.user-info {
+  display: flex;
+  gap: 16px;
+  width: 160px;
+  height: 53px;
+  padding-top: 45px;
+}
+.user-info-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  /* text */
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+
+.user-dude {
+  /* text */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+
+/* GET SPECIAL */
+
+.special {
+  display: flex;
+  flex-direction: row;
+  padding-top: 176px;
+  padding-left: 18px;
+}
+
+.special-info {
+}
+
+.special-title {
+  padding-top: 20px;
+  /* text */
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  color: #2c2c2c;
+}
+
+.special-par {
+  padding-top: 20px;
+  /* text */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+
+.special-form {
+  padding-top: 100px;
+}
+
+.special-input {
+  border: 0.8541666269302368px solid #ffe550;
+  border-radius: 30px;
+  padding: 10px;
+  width: 395px;
+  /* text */
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #505050;
+}
+
+.special-btn {
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 103px;
+  height: 42px;
+  background: #bbf330;
+  /* text */
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
 }
