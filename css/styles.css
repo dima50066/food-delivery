@@ -128,14 +128,14 @@ img {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  /* elipse */
+  border: 26px solid #ffe550;
+  border-radius: 100%;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
-  /* elipse */
-  border: 26px solid #ffe550;
-  border-radius: 100%;
 }
 
 /* Next & previous buttons */
