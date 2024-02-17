@@ -100,8 +100,6 @@ address {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 16px;
-  padding-bottom: 55px;
 }
 
 .hero-info {
@@ -194,10 +192,6 @@ address {
   background-color: #ffe550;
   display: flex;
   flex-direction: row;
-  padding-left: 16px;
-  padding-bottom: 124px;
-  padding-top: 113px;
-  padding-right: 51px;
 }
 .offer-img {
   margin: auto;
@@ -266,12 +260,6 @@ address {
 }
 
 /* FAVORITES */
-.favor {
-  padding-top: 120px;
-  padding-left: 32px;
-  padding-bottom: 101px;
-}
-
 .favor-title {
   padding-bottom: 20px;
   /* text */
@@ -290,21 +278,19 @@ address {
   color: #2c2c2c;
 }
 
-.favor-list {
-}
-
 .favor-ul {
   display: flex;
   flex-wrap: wrap;
   column-gap: 32px;
   row-gap: 32px;
   padding-left: 32px;
+  justify-content: space-evenly;
 }
 
 .favor-li {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   /* eclipse */
   border: 16px solid #ffe550;
   border-radius: 197px;
@@ -322,10 +308,6 @@ address {
 }
 
 .customers-info {
-  padding-top: 140px;
-  padding-bottom: 126px;
-  padding-left: 32px;
-  padding-right: 104px;
 }
 
 .customers-title {
@@ -531,4 +513,52 @@ footer {
   font-weight: 400;
   font-size: 12px;
   color: #2c2c2c;
+}
+
+/* modal */
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  visibility: visible;
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.modal {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 458px;
+  min-height: 449px;
+  background-color: yellow;
+}
+.modal-close {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.modal-title {
+  background-color: aqua;
+  padding-top: 32px;
+  margin-left: 167px;
+  margin-bottom: 20px;
+  /* text */
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #2c2c2c;
+}
+.form {
+  background-color: #505050;
 }

@@ -32,13 +32,13 @@
                     <li class="menu-li"><a href="">Menu</a></li>
                     <li class="menu-li"><a href="">Contact</a></li>
                 </ul>
-                <button class="button-order" type="button">Order now</button>
+                <button class="button-order" type="button" data-modal-open>Order now</button>
             </nav>
         </div>
     </header>
 
     <main>
-        <section>
+        <section class="container">
             <div class="hero">
                 <div class="hero-info">
                     <h1 class="hero-title">
@@ -81,7 +81,7 @@
 
 
         <!-- OFFERINGS -->
-        <section>
+        <section class="container">
             <div class="offer">
                 <img class="offer-img" src="./images/offer/apple.png" height="502" width="396" alt="apple">
                 <div class="offer-info">
@@ -120,35 +120,30 @@
         </section>
 
         <!-- FAVORITES -->
-        <section>
-            <div class="favor">
-                <h2 class="favor-title">Some of Our Favorites</h2>
-                <p class="favor-par">Looking for something delicious?</p>
-                <div class="favor-list">
-                    <ul class="favor-ul">
-                        <li class="favor-li">
-                            <img class="favor-li-img" width="315" height="315" src="./images/favor/gamburger.png"
-                                alt="">
-                        </li>
-                        <li class="favor-li"><img class="favor-li-img" width="315" height="315"
-                                src="./images/favor/Pasta.png" alt=""></li>
-                        <li class="favor-li"><img class="favor-li-img" width="315" height="315"
-                                src="./images/favor/pizza.png" alt=""></li>
-                        <li class="favor-li"><img class="favor-li-img" width="315" height="315"
-                                src="./images/favor/chicken.png" alt=""></li>
-                        <li class="favor-li"><img class="favor-li-img" width="315" height="315"
-                                src="./images/favor/salat.png" alt=""></li>
-                        <li class="favor-li"><img class="favor-li-img" width="315" height="315"
-                                src="./images/favor/borshch.png" alt=""></li>
-                    </ul>
-                </div>
-            </div>
+        <section class="container">
+            <h2 class="favor-title">Some of Our Favorites</h2>
+            <p class="favor-par">Looking for something delicious?</p>
+            <ul class="favor-ul">
+                <li class="favor-li">
+                    <img class="favor-li-img" width="315" height="315" src="./images/favor/gamburger.png" alt="">
+                </li>
+                <li class="favor-li"><img class="favor-li-img" width="315" height="315" src="./images/favor/Pasta.png"
+                        alt=""></li>
+                <li class="favor-li"><img class="favor-li-img" width="315" height="315" src="./images/favor/pizza.png"
+                        alt=""></li>
+                <li class="favor-li"><img class="favor-li-img" width="315" height="315" src="./images/favor/chicken.png"
+                        alt=""></li>
+                <li class="favor-li"><img class="favor-li-img" width="315" height="315" src="./images/favor/salat.png"
+                        alt=""></li>
+                <li class="favor-li"><img class="favor-li-img" width="315" height="315" src="./images/favor/borshch.png"
+                        alt=""></li>
+            </ul>
         </section>
 
 
 
         <!-- CUSTOMERS -->
-        <section>
+        <section class="container">
             <div class="customers">
                 <div class="customers-info">
                     <h2 class="customers-title">What our Customers Say</h2>
@@ -190,7 +185,7 @@
 
 
         <!-- GET SPECIAL -->
-        <section>
+        <section class="container">
             <div class="special">
                 <div class="special-info">
                     <h2 class="special-title">Subscribe To Get Special Offers</h2>
@@ -211,7 +206,7 @@
 
 
 
-        <footer class="">
+        <footer class="container">
             <div class="footer">
                 <div class="footer-up">
                     <a href="./index.html"><img src="./images/logo.png" width="66" height="52" alt="logo"></a>
@@ -244,6 +239,44 @@
         </footer>
 
 
+        <!-- backdrop -->
+
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="modal-close button-close" type="button" data-modal-close>
+                    <svg>
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <p class="modal-title">Order form</p>
+                <form class="form" name="contact-form" autocomplete="on" novalidate>
+                    <div class="form-field">
+                        <label class="form-field-label" for="user-name">Name</label>
+                        <div class="form-field-box">
+                            <input class="form-field-input" id="user-name" type="text" name="user-name" autofocus />
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label class="form-field-label" for="user-tel">Phone number</label>
+                        <div class="form-field-box">
+                            <input class="form-field-input" id="user-tel" type="tel" name="user-tel" />
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label class="form-field-label" for="user-email">E-mail</label>
+                        <div class="form-field-box">
+                            <input class="form-field-input" id="user-email" type="email" name="user-email" />
+                        </div>
+                    </div>
+                    <button class="subscription-btn form-field-btn" type="submit">
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
+        </div>
+
+
 
 
 
@@ -252,6 +285,7 @@
 
 
     <script src="./js/js.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
