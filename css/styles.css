@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background: #fefefe;
+  background-color: #fefefe;
+  color: #2c2c2c;
 }
 
 a {
@@ -25,14 +26,17 @@ ul {
 }
 
 img {
-  /* display: block; */
+  display: block;
+}
+
+address {
+  font-style: normal;
 }
 
 .button-order {
-  background: #bbf330;
+  background-color: #bbf330;
   border-radius: 30px;
-  padding: 6px 17px;
-  width: 98px;
+  min-width: 98px;
   height: 32px;
   cursor: pointer;
   display: block;
@@ -41,7 +45,7 @@ img {
   font-weight: 500;
   font-size: 13px;
   line-height: 1.5;
-  text-align: right;
+  text-align: center;
   color: #2c2c2c;
 }
 
@@ -53,28 +57,35 @@ img {
   font-size: 12px;
 }
 
+.container {
+  width: 1280;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
 /* header */
 
 .logo {
-  display: flex;
+  margin-right: auto;
 }
 
-.headerr {
+.header {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  padding: 15px 16px;
+}
+
+.header-logo {
+}
+.nav {
+  display: flex;
 }
 .menu {
   display: flex;
-}
-.menu-ul {
-  display: flex;
   flex-direction: row;
-  font-weight: 400;
-  font-size: 14px;
   gap: 28px;
   padding-right: 30px;
+  align-items: center;
   /* text */
   font-weight: 400;
   font-size: 14px;
@@ -118,11 +129,6 @@ img {
 
 /* slideshow */
 
-.test {
-  * {
-    box-sizing: border-box;
-  }
-}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
