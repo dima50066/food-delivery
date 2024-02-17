@@ -537,7 +537,8 @@ footer {
   transform: translate(-50%, -50%);
   width: 458px;
   min-height: 449px;
-  background-color: yellow;
+  background: #ffe550;
+  border-radius: 30px;
 }
 .modal-close {
   position: fixed;
@@ -549,7 +550,6 @@ footer {
 }
 
 .modal-title {
-  background-color: aqua;
   padding-top: 32px;
   margin-left: 167px;
   margin-bottom: 20px;
@@ -560,5 +560,45 @@ footer {
   color: #2c2c2c;
 }
 .form {
-  background-color: #505050;
+}
+
+.form-field {
+  margin: 24px 32px;
+}
+
+.form-field-label {
+  margin-left: 12px;
+  display: block;
+  /* text */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #2c2c2c;
+}
+
+.form-field-input {
+  padding-left: 12px;
+  border: 1px solid rgba(18, 18, 18, 0.12);
+  border-radius: 30px;
+  width: 100%;
+  height: 48px;
+  /* text */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #2c2c2c;
+}
+
+.form-field-btn {
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 106px;
+  height: 40px;
+  background-color: #fff;
+  /* text */
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
 }
