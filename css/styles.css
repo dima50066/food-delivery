@@ -233,6 +233,8 @@ address {
 }
 
 .offer-list-title {
+  display: flex;
+  flex-direction: column;
   padding-bottom: 16px;
   /* text */
   font-weight: 700;
@@ -240,7 +242,18 @@ address {
   line-height: 1.4;
   color: #2c2c2c;
 }
-
+.offer-svg {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.oferr-icons {
+  fill: #7eb101;
+}
 .offer-list-par {
   /* text */
   font-family: 'Roboto', sans-serif;
@@ -549,6 +562,17 @@ footer {
   border-radius: 50%;
 }
 
+.button-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.close-icon {
+  fill: #2c2c2c;
+}
+
 .modal-title {
   padding-top: 32px;
   margin-left: 167px;
@@ -593,6 +617,7 @@ footer {
   border: 2px solid #7eb101;
   border-radius: 30px;
   padding: 10px 20px;
+  margin: 32px 176px 32px 176px;
   width: 106px;
   height: 40px;
   background-color: #fff;
