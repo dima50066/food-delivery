@@ -317,12 +317,15 @@ address {
 
 .customers {
   background-color: #ffe550;
+  height: 620px;
 }
 
 .customers-info {
+  margin-left: 32px;
 }
 
 .customers-title {
+  padding-top: 140px;
   padding-bottom: 20px;
   /* text */
   font-weight: 700;
@@ -353,9 +356,20 @@ address {
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  width: 501px;
+  height: 230px;
+  padding-left: 10px;
+}
+
+.star-icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 4px;
 }
 
 .comments-li-par {
+  padding-top: 28px;
   /* text */
   font-weight: 700;
   font-size: 18px;
