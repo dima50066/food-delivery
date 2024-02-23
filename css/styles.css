@@ -49,6 +49,10 @@ address {
   color: #2c2c2c;
 }
 
+.button-order:hover {
+  background-color: #ffe450;
+}
+
 .links {
   text-decoration: underline;
   color: #7eb101;
@@ -151,7 +155,7 @@ address {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: #2c2c2c;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -169,6 +173,7 @@ address {
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  color: #7eb101;
 }
 
 /* Fading animation */
@@ -271,6 +276,16 @@ address {
   width: 106px;
   height: 40px;
   cursor: pointer;
+  /* text */
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.offer-button:hover {
+  background-color: #bbf330;
+  border: none;
 }
 
 /* FAVORITES */
@@ -308,6 +323,10 @@ address {
   border-radius: 197px;
   width: 395px;
   height: 397px;
+}
+
+.favor-li:hover {
+  border: 16px solid #bbf330;
 }
 
 .favor-li-img {
@@ -456,11 +475,16 @@ address {
   width: 103px;
   height: 42px;
   background: #bbf330;
+  border: none;
   /* text */
   font-weight: 500;
   font-size: 13px;
   line-height: 1.5;
   color: #2c2c2c;
+}
+
+.special-btn:hover {
+  background-color: #ffe450;
 }
 
 /* FOOTER */
@@ -512,13 +536,22 @@ footer {
 }
 
 .footer-subcribe-btn {
-  border: 0.8541666269302368px solid #7eb101;
+  border: 1px solid #7eb101;
   border-radius: 30px;
   padding: 10px 20px;
   width: 103px;
   height: 42px;
   background: #fff;
   cursor: pointer;
+  /* text */
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.footer-subcribe-btn:hover {
+  border: 1px solid #ffe450;
 }
 
 .footer-subcribe-par {
