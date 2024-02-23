@@ -77,6 +77,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0 4px 24px 0 #69696919;
 }
 
 .header-logo {
@@ -489,6 +490,7 @@ address {
 
 /* FOOTER */
 footer {
+  box-shadow: 0 -4px 24px 0px #69696919;
   display: flex;
   background-image: url('/images/footer/orange2.png'),
     url('/images/footer/apple.png'), url('/images/footer/orange.png'),
