@@ -289,7 +289,8 @@ address {
   border: none;
 }
 
-/* FAVORITES */
+/* 
+ITES */
 .favor-title {
   padding-bottom: 20px;
   /* text */
@@ -311,18 +312,18 @@ address {
 .favor-ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  justify-content: space-evenly;
+  gap: 32px;
 }
 
 .favor-li {
+  width: calc((100% - (32px * 2)) / 3);
   display: flex;
   align-items: center;
   justify-content: center;
   /* eclipse */
   border: 16px solid #ffe550;
   border-radius: 197px;
-  width: 395px;
+
   height: 397px;
 }
 
