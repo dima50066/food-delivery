@@ -490,6 +490,7 @@ address {
 
 /* FOOTER */
 footer {
+  padding-top: 50px;
   box-shadow: 0 -4px 24px 0px #69696919;
   display: flex;
   background-image: url('/images/footer/orange2.png'),
