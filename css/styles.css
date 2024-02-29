@@ -79,6 +79,28 @@ address {
   justify-content: space-between;
   box-shadow: 0 4px 24px 0 #69696919;
 }
+.menu-li {
+  font-weight: 400;
+  font-size: 14px;
+  color: #2c2c2c;
+}
+
+.current {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  color: #bbf330;
+}
+
+.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #bbf330;
+  border-radius: 2px;
+  bottom: -1px;
+}
 
 .header-logo {
 }
@@ -323,7 +345,6 @@ ITES */
   /* eclipse */
   border: 16px solid #ffe550;
   border-radius: 197px;
-
   height: 397px;
 }
 
@@ -363,7 +384,6 @@ ITES */
 }
 
 .comments {
-  background-color: #7eb101;
   display: flex;
 }
 
@@ -432,6 +452,7 @@ ITES */
   flex-direction: row;
   padding-top: 176px;
   padding-left: 18px;
+  padding-bottom: 200px;
 }
 
 .special-info {
@@ -491,6 +512,7 @@ ITES */
 
 /* FOOTER */
 footer {
+  padding-left: 16px;
   padding-top: 50px;
   box-shadow: 0 -4px 24px 0px #69696919;
   display: flex;
@@ -500,8 +522,8 @@ footer {
     url('/images/footer/juice3.png'), url('/images/footer/juice2.png'),
     url('/images/footer/juice.png');
   background-repeat: no-repeat;
-  background-position: 30px 230px, 300px 190px, 450px 170px, 800px 210px,
-    1100px 220px, 180px 180px, 400px 50px, 1000px 140px;
+  background-position: 30px 280px, 300px 240px, 450px 220px, 800px 260px,
+    1100px 270px, 180px 230px, 400px 100px, 1000px 190px;
 }
 
 .footer-up {
@@ -515,6 +537,12 @@ footer {
   gap: 28px;
   padding-left: 143px;
   padding-right: 320px;
+}
+
+.footer-menu-link {
+  font-weight: 400;
+  font-size: 14px;
+  color: #2c2c2c;
 }
 .footer-subcribe {
 }
@@ -532,6 +560,9 @@ footer {
   border-radius: 30px;
   padding: 10px;
   width: 279px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 13px;
   /* text */
   font-weight: 400;
   font-size: 12px;
