@@ -518,11 +518,11 @@ footer {
   padding-top: 50px;
   box-shadow: 0 -4px 24px 0px #69696919;
   display: flex;
-  background-image: url('/images/footer/orange2.png'),
-    url('/images/footer/apple.png'), url('/images/footer/orange.png'),
-    url('/images/footer/banan.png'), url('/images/footer/apple2.png'),
-    url('/images/footer/juice3.png'), url('/images/footer/juice2.png'),
-    url('/images/footer/juice.png');
+  background-image: url(/images/footer/orange2.png),
+    url(/images/footer/apple.png), url(/images/footer/orange.png),
+    url(/images/footer/banan.png), url(/images/footer/apple2.png),
+    url(/images/footer/juice3.png), url(/images/footer/juice2.png),
+    url(/images/footer/juice.png);
   background-repeat: no-repeat;
   background-position: 30px 280px, 300px 240px, 450px 220px, 800px 260px,
     1100px 270px, 180px 230px, 400px 100px, 1000px 190px;
