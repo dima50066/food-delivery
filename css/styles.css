@@ -642,7 +642,7 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 458px;
-  min-height: 449px;
+  min-height: 470px;
   background: #ffe550;
   border-radius: 30px;
 }
@@ -718,11 +718,13 @@ footer {
 }
 
 .form-btn-send {
+  cursor: pointer;
   border: 2px solid #7eb101;
   border-radius: 30px;
   padding: 10px 20px;
-  margin: 32px 176px 32px 176px;
-  width: 106px;
+  display: block;
+  margin: 0 auto;
+  min-width: 106px;
   height: 40px;
   background-color: #fff;
   /* text */
@@ -739,6 +741,7 @@ footer {
 
 /* checkbox */
 .privacy {
+  margin-bottom: 20px;
 }
 .checkbox-input {
   display: none;
